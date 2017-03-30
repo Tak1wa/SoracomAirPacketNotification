@@ -14,3 +14,13 @@ npm init
 npm install --save-dev request
 npm install --save-dev async
 ```
+
+## Usage
+Please change the following value of index.js to your value.
+```node
+var operatorId = "<your OperatorId>";
+var userName = "<your SAM UserId>";
+var password = "<your Password>";
+var slackWebhookUrl = '<your Slack WebHook URL>';
+var postChannel = "<your Slack Post #Channel>";
+```
