@@ -1,5 +1,7 @@
 # SoracomAirPacketNotification
 
+[![Build Status](https://travis-ci.org/Tak1wa/SoracomAirPacketNotification.svg?branch=master)](https://travis-ci.org/Tak1wa/SoracomAirPacketNotification)
+
 I created this script for use with Azure Functions.  
 Acquires SORACOM AIR SIM communication fee and notifies to Slack channel.  
 In accordance with Timer Trigger of Azure Functions, we will inform you of the communication fee for the most recent one hour of execution time.  
